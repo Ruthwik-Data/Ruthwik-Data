@@ -7,7 +7,7 @@ I am an AI Product Manager who ships evaluation‑first AI products (RAG apps, a
 - **Evaluation Obsessed**: Focused on building reliable and trustworthy AI systems through rigorous evaluation frameworks.
 
 ## Featured Projects
-- **[Memora](https://github.com/Ruthwik-Data/memora)** ([Live](https://memora-opal.vercel.app) - Intelligent snapshot organizer that turns loose screenshots into searchable memories.) 
+- **[Memora](https://github.com/Ruthwik-Data/memora)** ([Live](https://memora-opal.vercel.app)) — Intelligent snapshot organizer that turns loose screenshots into searchable memories.
 - **[Warmlist](https://github.com/Ruthwik-Data/warmlist)** ([Live](https://warmlist-dun.vercel.app/)) — Warm outreach tracker so founders and PMs never drop high‑intent leads.
 - **[SugarShield](https://github.com/Ruthwik-Data/sugarshield)** ([Live](https://sugarshield.vercel.app/)) — Simple sugar‑awareness logging to help users manage their health.
 - **[SleepSense](https://github.com/Ruthwik-Data/sleepsense)** — Turning messy sleep notes into actionable insights using AI.
