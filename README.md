@@ -1,6 +1,6 @@
 # Hi, I'm Ruthwik 👋
 
-I am an AI Product Manager who ships evaluation‑first AI products (RAG apps, agents, and decision‑support tools for B2B SaaS and fintech). I have 6+ years of experience building 0→1 products.
+I am an AI Product Manager who ships evaluation‑first AI products (RAG apps, agents, and decision‑support tools for B2B SaaS and fintech). I have 7+ years of experience building 0→1 products.
 
 - **0→1 B2B SaaS & Fintech Experience**: Proven track record of taking complex products from concept to launch.
 - **Hands‑on AI Expertise**: Deep experience with LLM APIs, RAG pipelines, and agentic workflows.
@@ -29,4 +29,4 @@ I am an AI Product Manager who ships evaluation‑first AI products (RAG apps, a
 
 - **LinkedIn**: [ruthwik-arepelly](https://www.linkedin.com/in/ruthwik-arepelly/)
 - **Medium**: [@rello4585](https://medium.com/@rello4585)
-- **Email**: [placeholder]
+- **Email**: [rello4585@gmail.com]
