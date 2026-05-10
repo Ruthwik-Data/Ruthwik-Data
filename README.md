@@ -40,7 +40,7 @@ This is what evaluation obsession looks like in practice: I wasn't just using th
 
 - **Photon (Co-founder):** Built B2B SaaS payments platform for schools — 75+ schools in India, $100K ARR, 8-person team, automated payment reminder workflows
 - **Digital Connect:** PM for unified digital platform serving universities and offline businesses
-- **MSc Business Analytics**, Trinity University
+- **MSc Business Analytics**, Trine University
 
 ---
 
