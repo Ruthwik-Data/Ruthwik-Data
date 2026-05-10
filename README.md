@@ -1,36 +1,51 @@
-# Hi, I'm Ruthwik 👋
+# Ruthwik Arepelly
 
-I am an AI Product Manager who ships evaluation‑first AI products (RAG apps, agents, and decision‑support tools for B2B SaaS and fintech). I have 7+ years of experience building 0→1 products.
+I build evaluation-first AI systems — and I can tell you exactly why each one works, where it breaks, and what the numbers say.
 
-- **0→1 B2B SaaS & Fintech Experience**: Proven track record of taking complex products from concept to launch.
-- **Hands‑on AI Expertise**: Deep experience with LLM APIs, RAG pipelines, and agentic workflows.
-- **Evaluation Obsessed**: Focused on building reliable and trustworthy AI systems through rigorous evaluation frameworks.
+7+ years building 0→1 products. Co-founded Photon (EdTech fintech, 75+ schools, $100K ARR). Now building at the intersection of LLMs, RAG, and AI evaluation.
 
-## Featured Projects
+---
 
-- **[ReceiptIQ](https://github.com/Ruthwik-Data/receiptiq)** ([Live](https://receiptiq-topaz.vercel.app/)) — AI-powered receipt extraction and finance dashboard using GPT-4o Vision for 95% accuracy.
-- **[PennyPal](https://github.com/Ruthwik-Data/pennypal)** ([Live](https://pennypal-five.vercel.app/)) — GenAI financial companion with 90% voice intent recognition accuracy.
-- **[Memora](https://github.com/Ruthwik-Data/memora)** ([Live](https://memora-opal.vercel.app)) — Intelligent snapshot organizer that turns loose screenshots into searchable memories.
-- **[Warmlist](https://github.com/Ruthwik-Data/warmlist)** ([Live](https://warmlist-dun.vercel.app/)) — Warm outreach tracker so founders and PMs never drop high‑intent leads.
-- **[SugarShield](https://github.com/Ruthwik-Data/sugarshield)** ([Live](https://sugarshield.vercel.app/)) — Vision-based food analysis with transparency and explainability for health management.
-- **[SleepSense](https://github.com/Ruthwik-Data/sleepsense)** — Turning messy sleep notes into actionable insights using AI.
+## What Each Project Proves
 
-## What I write about
+| Project | Problem Solved | What It Demonstrates |
+|---------|---------------|----------------------|
+| [Self-Improving Prompt Agent](https://github.com/Ruthwik-Data/self-improving-prompt-agent) | Prompt engineering is manual and unmeasurable | Eval-loop thinking; score went 0.10 → 0.80 in 10 rounds; optimization is bounded by evaluation quality |
+| [finrag-eval](https://github.com/Ruthwik-Data/finrag-eval) | Financial RAG hallucinates confidently on SEC filings | Production RAG eval mindset; found confident hallucination (2/3 honest refusals, 1/3 wrong-but-precise answer); filed a metric-level bug in DeepEval |
+| [GitScope](https://github.com/Ruthwik-Data/gitscope) | Evaluating a GitHub repo takes hours of manual analysis | AI decision-tool design; PM-first framing; structured output over raw data |
 
-- **[From Venue to Platform: The Bernabéu as a Product](https://medium.com/@rello4585/from-venue-to-platform-the-bernab%C3%A9u-as-a-product-4f1ae98626a9)** – Exploring the evolution of one of the world's most iconic stadiums into a modern product ecosystem.
-- **[How I Built SugarShield: From a Grocery Aisle Problem to a Working AI Product](https://medium.com/@rello4585/how-i-built-sugarshield-from-a-grocery-aisle-problem-to-a-working-ai-product-c11c58fe9d54)** – A case study on building an AI-driven health product from scratch.
-- **[Product Experiment: IntentTabs — Adding Friction to Fight Impulse](https://medium.com/@rello4585/product-experiment-intenttabs-adding-friction-to-fight-impulse-3f1e6553f7f8)** – Exploring how intentional design choices can influence user behavior.
-- **[Tap & Pray Is Not a Payment Strategy](https://medium.com/@rello4585/tap-pray-is-not-a-payment-strategy-2af7914161d0)** – Insights into payment product strategy and user experience.
-- **[Product Learning: How Gifting Became a Growth Engine, Not a Feature](https://medium.com/@rello4585/product-learning-how-gifting-became-a-growth-engine-not-a-feature-68d1d7e7dad0)** – Analyzing how a single feature can be leveraged for product growth.
+---
 
-## Skills
+## Open Source Signal
 
-- **Product**: Discovery, PRDs, Metrics, Experimentation, Stakeholder Alignment.
-- **AI**: Vision Models (GPT-4o), LLM APIs, RAG Pipelines, AI Evaluations, Prompt Design, Agents.
-- **Tech**: Next.js 15, Tailwind CSS 4, Python, SQL, Vercel, Full‑stack Prototyping.
+**DeepEval Issue [#2594](https://github.com/confident-ai/deepeval/issues/2594)** — Filed a root-cause bug report on `ContextualPrecisionMetric` over-penalizing overlapping chunks in financial RAG. Drove technical consensus on the `group_by` API fix. The Confident AI team is shipping it in the next release.
 
-## Contact
+This is what evaluation obsession looks like in practice: I wasn't just using the tool — I found where the metric itself was wrong.
 
-- **LinkedIn**: [ruthwik-arepelly](https://www.linkedin.com/in/ruthwik-arepelly/)
-- **Medium**: [@rello4585](https://medium.com/@rello4585)
-- **Email**: [rello4585@gmail.com]
+---
+
+## Stack I Work In
+
+**Evaluation:** DeepEval, custom eval harnesses, manual ground-truth scoring, RAGAS
+
+**RAG:** pgvector, Supabase, LangChain, section-aware chunking, Ollama, OpenAI embeddings
+
+**Agents:** Tool-use patterns, MCP, agentic loops, prompt optimization
+
+**Shipping:** Python, Next.js, Vercel, Docker, SQL, full-stack prototyping
+
+---
+
+## Background
+
+- **Photon (Co-founder):** Built B2B SaaS payments platform for schools — 75+ schools in India, $100K ARR, 8-person team, automated payment reminder workflows
+- **Digital Connect:** PM for unified digital platform serving universities and offline businesses
+- **MSc Business Analytics**, Trinity University
+
+---
+
+## I'm Open To
+
+**AIPM roles at AI-native startups** — teams working on LLMs, RAG infrastructure, eval tooling, or agents. I care most about whether the system actually works, not just whether it demos well.
+
+[LinkedIn](https://www.linkedin.com/in/ruthwik-arepelly/) · [Email](mailto:rello4585@gmail.com) · [Medium](https://medium.com/@rello4585)
