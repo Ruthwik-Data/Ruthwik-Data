@@ -18,7 +18,7 @@ I build evaluation-first AI systems — and I can tell you exactly why each one 
 | [Mechanic Trust](https://github.com/Ruthwik-Data/mechanictrust) | Auto repair shops exploit trust gaps with opaque pricing | Case study: designed the trust, explainability, and pricing transparency layer for a high-friction AI product | — |
 | [ReceiptIQ](https://github.com/Ruthwik-Data/receiptiq) | Accountants manually copy-paste receipt data for hours | GPT-4o Vision pipeline with confidence scoring — forces the AI to be honest about what it's uncertain about | [Demo](https://receiptiq.vercel.app/) |
 | [Warmlist](https://github.com/Ruthwik-Data/warmlist) | PMs lose track of warm contacts who could open doors | GPT-4o-mini CRM that surfaces who to reach out to and why — using LLMs for PM work, not just AI products | — |
-| [SugarShield](https://github.com/Ruthwik-Data/sugarshield) | Consumers can't tell if food ingredients are safe | Computer vision + ML pipeline that scans ingredient labels and flags harmful additives in real time | [Demo](https://sugarshield.vercel.app/) |
+| [SugarShield](https://github.com/Ruthwik-Data/sugarshield) | AI classifiers over-warn or miss hidden sugar — you can't tell which failure mode you're in | Built eval infrastructure into the product: 0 false negatives by design, conservative bias as explicit product decision, 87% trigger match rate. Strict vs. Lenient mode comparison built-in | [Demo](https://sugarshield.vercel.app/) · [Eval](https://sugarshield.vercel.app/eval) |
 
 ---
 
