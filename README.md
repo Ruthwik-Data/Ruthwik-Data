@@ -39,22 +39,16 @@ How I think through AI product decisions — not just what I built, but why, wha
 
 ## Open Source Signal
 
-**DeepEval Issue [#2594](https://github.com/confident-ai/deepeval/issues/2594)** — Filed a root-cause bug report on `ContextualPrecisionMetric` over-penalizing overlapping chunks in financial RAG. Drove technical consensus on the `group_by` API fix. The Confident AI team is shipping it in the next release.
-
-This is what evaluation obsession looks like in practice: I wasn't just using the tool — I found where the metric itself was wrong.
+**DeepEval Issue [#2594](https://github.com/confident-ai/deepeval/issues/2594)** — Filed a root-cause bug report on `ContextualPrecisionMetric` over-penalizing overlapping chunks in financial RAG. Drove technical consensus on the `group_by` API fix. The Confident AI team is shipping it in the next release. This is what evaluation obsession looks like in practice: I wasn't just using the tool — I found where the metric itself was wrong.
 
 ---
 
 ## Stack I Work In
 
 **Evaluation:** DeepEval, Claude as evaluator, LLM-as-judge patterns, custom eval harnesses, ground-truth scoring
-
 **RAG:** pgvector, Supabase, LangChain, OpenAI embeddings, section-aware chunking
-
 **Agents:** MCP, Claude agents, tool-use patterns, agentic loops, prompt optimization
-
 **Shipping:** Python, TypeScript, Next.js, Vercel, SQL, Docker
-
 **Models:** GPT-4o Vision, Claude Opus, Claude Sonnet, DeepEval for benchmarking
 
 ---
@@ -83,5 +77,13 @@ I write about product thinking, AI systems, and what I learn from building:
 ---
 
 ## What Sets Me Apart
+
+Most AI PMs talk about outputs. I focus on whether the system is trustworthy.
+
+That means evaluating the evaluator (DeepEval Issue #2594), designing products around failure modes before launch (SugarShield: 0 false negatives by design), and measuring improvement through behavior change, not vanity metrics (Self-Improving Prompt Agent: 0.10 → 0.80).
+
+I don't just use AI tools. I find where they break, why they break, and what to ship next because of it.
+
+---
 
 [LinkedIn](https://www.linkedin.com/in/ruthwik-arepelly/) · [Email](mailto:rello4585@gmail.com) · [Medium](https://medium.com/@rello4585)
