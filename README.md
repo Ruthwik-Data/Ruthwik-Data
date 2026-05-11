@@ -1,5 +1,7 @@
 # Ruthwik Arepelly
 
+> **Open to AIPM and product-adjacent roles** at early-stage AI startups (pre-seed to Series D, teams under 30) building LLMs, RAG, or eval tooling. [LinkedIn](https://www.linkedin.com/in/ruthwik-arepelly/) · [Email](mailto:rello4585@gmail.com)
+
 I build evaluation-first AI systems — and I can tell you exactly why each one works, where it breaks, and what the numbers say.
 
 7+ years building 0→1 products. Co-founded Photon (EdTech fintech, 75+ schools, $100K ARR). Now building at the intersection of LLMs, RAG, and AI evaluation.
@@ -10,21 +12,24 @@ I build evaluation-first AI systems — and I can tell you exactly why each one 
 
 | Project | Problem Solved | What It Demonstrates | Live |
 |---------|----------------|----------------------|------|
-| [Self-Improving Prompt Agent](https://github.com/Ruthwik-Data/self-improving-prompt-agent) | Prompt engineering is manual and unmeasurable | Eval-loop thinking; score went 0.10 → 0.80 in 10 rounds; optimization is bounded by evaluation quality | — |
-| [finrag-eval](https://github.com/Ruthwik-Data/finrag-eval) | Financial RAG hallucinates confidently on SEC filings | Production RAG eval mindset; found confident hallucination (2/3 honest refusals, 1/3 wrong-but-precise answer); filed a metric-level bug in DeepEval | — |
-| [GitScope](https://github.com/Ruthwik-Data/gitscope) | Evaluating a GitHub repo takes hours of manual analysis | AI decision-tool design; PM-first framing; structured output over raw data | — |
-| [SugarShield](https://github.com/Ruthwik-Data/sugarshield) | Consumers can't tell if food ingredients are safe without research | Computer vision + ML pipeline that scans ingredient labels and flags harmful additives in real time | [Demo](https://sugarshield.vercel.app/) |
-| [mechanictrust](https://github.com/Ruthwik-Data/mechanictrust) | Auto repair shops exploit trust gaps with opaque pricing | AI product case study on trust design, explainability, and pricing transparency in high-friction services | — |
-| [ReceiptIQ](https://github.com/Ruthwik-Data/receiptiq) | Manual receipt parsing wastes hours for accountants and freelancers | GPT-4o Vision extraction pipeline with structured JSON/CSV export; confidence scoring for trust-critical output | [Demo](https://receiptiq.vercel.app/) |
-| [Warmlist](https://github.com/Ruthwik-Data/warmlist) | PMs lose track of warm contacts who could open doors | GPT-4o-mini powered CRM that surfaces relationship context and surfaces who to reach out to and why | — |
+| [Self-Improving Prompt Agent](https://github.com/Ruthwik-Data/self-improving-prompt-agent) | How do you improve a prompt without guessing? | Built an eval loop that ran 10 rounds — score went 0.10 → 0.80. Key insight: better prompts come from better evals, not more attempts | — |
+| [finrag-eval](https://github.com/Ruthwik-Data/finrag-eval) | Financial RAG hallucinates confidently — and you can't tell | Found 2/3 hallucinations were honest refusals, 1/3 were confidently wrong. Filed a metric-level bug in DeepEval that the team is now fixing | — |
+| [GitScope](https://github.com/Ruthwik-Data/gitscope) | Evaluating a GitHub repo takes hours of manual reading | Built an MCP-powered agent that gives PMs structured repo analysis in seconds — PM-first output, not raw code | — |
+| [Mechanic Trust](https://github.com/Ruthwik-Data/mechanictrust) | Auto repair shops exploit trust gaps with opaque pricing | Case study: designed the trust, explainability, and pricing transparency layer for a high-friction AI product | — |
+| [ReceiptIQ](https://github.com/Ruthwik-Data/receiptiq) | Accountants manually copy-paste receipt data for hours | GPT-4o Vision pipeline with confidence scoring — forces the AI to be honest about what it's uncertain about | [Demo](https://receiptiq.vercel.app/) |
+| [Warmlist](https://github.com/Ruthwik-Data/warmlist) | PMs lose track of warm contacts who could open doors | GPT-4o-mini CRM that surfaces who to reach out to and why — using LLMs for PM work, not just AI products | — |
+| [SugarShield](https://github.com/Ruthwik-Data/sugarshield) | Consumers can't tell if food ingredients are safe | Computer vision + ML pipeline that scans ingredient labels and flags harmful additives in real time | [Demo](https://sugarshield.vercel.app/) |
 
 ---
 
 ## Case Studies
 
-How I think through AI product decisions — not just what I built, but why and what the system gets wrong:
+How I think through AI product decisions — not just what I built, but why, what failed, and what the system gets wrong:
 
+**Published**
 - **[Mechanic Trust](https://github.com/Ruthwik-Data/mechanictrust)** — Trust-critical design in consumer AI: explainability, pricing transparency, failure mode planning
+
+**In Progress**
 - **[finrag-eval](https://github.com/Ruthwik-Data/finrag-eval)** — Evaluation infrastructure for financial RAG: where metrics lie, where hallucinations hide
 - **[Self-Improving Prompt Agent](https://github.com/Ruthwik-Data/self-improving-prompt-agent)** — Recursive eval loops: what happens when the optimizer is only as good as its evaluator
 
@@ -40,13 +45,15 @@ This is what evaluation obsession looks like in practice: I wasn't just using th
 
 ## Stack I Work In
 
-**Evaluation:** DeepEval, LLM-as-judge, custom eval harnesses, ground-truth scoring
+**Evaluation:** DeepEval, Claude as evaluator, LLM-as-judge patterns, custom eval harnesses, ground-truth scoring
 
 **RAG:** pgvector, Supabase, LangChain, OpenAI embeddings, section-aware chunking
 
-**Agents:** MCP, tool-use patterns, agentic loops, prompt optimization
+**Agents:** MCP, Claude agents, tool-use patterns, agentic loops, prompt optimization
 
 **Shipping:** Python, TypeScript, Next.js, Vercel, SQL, Docker
+
+**Models:** GPT-4o Vision, Claude Opus, Claude Sonnet, DeepEval for benchmarking
 
 ---
 
