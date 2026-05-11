@@ -6,6 +6,8 @@ I build evaluation-first AI systems — and I can tell you exactly why each one 
 
 7+ years building 0→1 products. Co-founded Photon (EdTech fintech, 75+ schools, $100K ARR). Now building at the intersection of LLMs, RAG, and AI evaluation.
 
+**Start here → [Mechanic Trust case study](https://github.com/Ruthwik-Data/mechanictrust)** — the clearest example of how I design evaluation-first AI products.
+
 ---
 
 ## What Each Project Proves
@@ -16,7 +18,7 @@ I build evaluation-first AI systems — and I can tell you exactly why each one 
 | [finrag-eval](https://github.com/Ruthwik-Data/finrag-eval) | Financial RAG hallucinates confidently — and you can't tell | Found 2/3 hallucinations were honest refusals, 1/3 were confidently wrong. Filed a metric-level bug in DeepEval that the team is now fixing | — |
 | [GitScope](https://github.com/Ruthwik-Data/gitscope) | Evaluating a GitHub repo takes hours of manual reading | Built an MCP-powered agent that gives PMs structured repo analysis in seconds — PM-first output, not raw code | — |
 | [Mechanic Trust](https://github.com/Ruthwik-Data/mechanictrust) | Auto repair shops exploit trust gaps with opaque pricing | Case study: designed the trust, explainability, and pricing transparency layer for a high-friction AI product | — |
-| [ReceiptIQ](https://github.com/Ruthwik-Data/receiptiq) | Accountants manually copy-paste receipt data for hours | GPT-4o Vision pipeline with confidence scoring — forces the AI to be honest about what it's uncertain about | [Demo](https://receiptiq.vercel.app/) |
+| [ReceiptIQ](https://github.com/Ruthwik-Data/receiptiq) | Accountants manually copy-paste receipt data for hours | GPT-4o Vision pipeline with confidence scoring — forces the AI to be honest about what it's uncertain about | [Demo](https://receiptiq-topaz.vercel.app/) |
 | [Warmlist](https://github.com/Ruthwik-Data/warmlist) | PMs lose track of warm contacts who could open doors | GPT-4o-mini CRM that surfaces who to reach out to and why — using LLMs for PM work, not just AI products | — |
 | [SugarShield](https://github.com/Ruthwik-Data/sugarshield) | AI classifiers over-warn or miss hidden sugar — you can't tell which failure mode you're in | Built eval infrastructure into the product: 0 false negatives by design, conservative bias as explicit product decision, 87% trigger match rate. Strict vs. Lenient mode comparison built-in | [Demo](https://sugarshield.vercel.app/) · [Eval](https://sugarshield.vercel.app/eval) |
 
@@ -29,7 +31,7 @@ How I think through AI product decisions — not just what I built, but why, wha
 **Published**
 - **[Mechanic Trust](https://github.com/Ruthwik-Data/mechanictrust)** — Trust-critical design in consumer AI: explainability, pricing transparency, failure mode planning
 
-**In Progress**
+**Case Study Pipeline** — detailed write-ups in progress, expected June 2026:
 - **[finrag-eval](https://github.com/Ruthwik-Data/finrag-eval)** — Evaluation infrastructure for financial RAG: where metrics lie, where hallucinations hide
 - **[Self-Improving Prompt Agent](https://github.com/Ruthwik-Data/self-improving-prompt-agent)** — Recursive eval loops: what happens when the optimizer is only as good as its evaluator
 
