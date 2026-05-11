@@ -28,7 +28,7 @@ This is what evaluation obsession looks like in practice: I wasn't just using th
 
 ## Stack I Work In
 
-**Evaluation:** DeepEval, custom eval harnesses, manual ground-truth scoring, RAGAS
+**Evaluation:** DeepEval, custom eval harnesses, manual ground-truth scoring, RAGs
 
 **RAG:** pgvector, Supabase, LangChain, section-aware chunking, Ollama, OpenAI embeddings
 
