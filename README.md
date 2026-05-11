@@ -76,14 +76,12 @@ I write about product thinking, AI systems, and what I learn from building:
 
 ## Background
 
-- **Photon (Co-founder):** Built B2B SaaS payments platform for schools — 75+ schools in India, $100K ARR, 8-person team, automated payment reminder workflows
-- **Digital Connect:** PM for unified digital platform serving universities and offline businesses
-- **MSc Business Analytics**, Trine University
+- **Photon (Co-founder):** Built B2B SaaS payments platform for schools — 75+ schools in India, $100K ARR, 8-person team
+- **Digital Connect:** AI product — built and shipped features for university admin workflows
+- **BS Computer Science** · **MSc Business Analytics**, Trine University
 
 ---
 
-## I'm Open To
-
-Product and product-adjacent roles (strategy, operations, GTM) at **pre-seed to Series D AI startups (teams under 30)** building reliable AI systems — evaluation infrastructure, RAG, agents.
+## What Sets Me Apart
 
 [LinkedIn](https://www.linkedin.com/in/ruthwik-arepelly/) · [Email](mailto:rello4585@gmail.com) · [Medium](https://medium.com/@rello4585)
