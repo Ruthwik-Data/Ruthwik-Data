@@ -28,13 +28,13 @@ This is what evaluation obsession looks like in practice: I wasn't just using th
 
 ## Stack I Work In
 
-**Evaluation:** DeepEval, custom eval harnesses, manual ground-truth scoring, RAGs
+**Evaluation:** DeepEval, LLM-as-judge, custom eval harnesses, ground-truth scoring
 
-**RAG:** pgvector, Supabase, LangChain, section-aware chunking, Ollama, OpenAI embeddings
+**RAG:** pgvector, Supabase, LangChain, OpenAI embeddings, section-aware chunking
 
-**Agents:** Tool-use patterns, MCP, agentic loops, prompt optimization
+**Agents:** MCP, tool-use patterns, agentic loops, prompt optimization
 
-**Shipping:** Python, Next.js, Vercel, Docker, SQL, full-stack prototyping
+**Shipping:** Python, TypeScript, Next.js, Vercel, SQL, Docker
 
 ---
 
@@ -48,6 +48,7 @@ This is what evaluation obsession looks like in practice: I wasn't just using th
 
 ## I'm Open To
 
-**AIPM or founding PM roles at Series A–B AI-native startups** — specifically teams building LLM infrastructure, RAG systems, eval tooling, or AI agents. Target companies: Patronus AI, Arize, Confident AI, HUD, or similar. I care most about whether the system actually works, not just whether it demos well.
+Product and product-adjacent roles (strategy, operations, GTM) at **pre-seed to Series D AI startups (teams under 30)** building reliable AI systems — evaluation infrastructure, RAG, agents.
 
+##
 [LinkedIn](https://www.linkedin.com/in/ruthwik-arepelly/) · [Email](mailto:rello4585@gmail.com) · [Writing on Medium](https://medium.com/@rello4585/how-i-built-sugarshield-from-a-grocery-aisle-problem-to-a-working-ai-product-c11c58fe9d54)
