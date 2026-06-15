@@ -39,7 +39,17 @@ How I think through AI product decisions — not just what I built, but why, wha
 
 ## Open Source Signal
 
-**DeepEval Issue [#2594](https://github.com/confident-ai/deepeval/issues/2594)** — Filed a root-cause bug report on `ContextualPrecisionMetric` over-penalizing overlapping chunks in financial RAG. Drove technical consensus on the `group_by` API fix. The Confident AI team is shipping it in the next release. This is what evaluation obsession looks like in practice: I wasn't just using the tool — I found where the metric itself was wrong.
+## Open Source Signal
+
+I don't just use evaluation and AI tooling. I find where they break, why, and what to ship next.
+
+- **[confident-ai/deepeval](https://github.com/confident-ai/deepeval/issues/2594)** — Filed root-cause bug on `ContextualPrecisionMetric` over-penalizing overlapping chunks in financial RAG. Drove technical consensus on the group_by API fix — the Confident AI team is shipping it in the next release. This is evaluation obsession in practice.
+
+- **[confident-ai/deepeval](https://github.com/confident-ai/deepeval/pull/2743)** — PR to improve `ContextualPrecisionMetric` with retrieved-context source grouping and fixed weighted precision. Came directly from hands-on financial RAG evaluation work.
+
+- **[mem0ai/memory-benchmarks](https://github.com/mem0ai/memory-benchmarks/pull/12)** — Added failure-mode regression scenarios for memory systems — because benchmarks that don't surface failure modes aren't useful for real-world agents.
+
+- **[weaviate/weaviate](https://github.com/weaviate/weaviate/issues/11627)** — Opened research-driven issue on hybrid search alpha auto-tuning for domain-specific corpora. Surfaced retrieval behavior patterns from financial-document work that the team is now investigating.
 
 ---
 
