@@ -39,9 +39,9 @@ How I think through AI product decisions — not just what I built, but why, wha
 
 ## Open Source Signal
 
-## Open Source Signal
-
 I don't just use evaluation and AI tooling. I find where they break, why, and what to ship next.
+
+**Existing contributions:**
 
 - **[confident-ai/deepeval](https://github.com/confident-ai/deepeval/issues/2594)** — Filed root-cause bug on `ContextualPrecisionMetric` over-penalizing overlapping chunks in financial RAG. Drove technical consensus on the group_by API fix — the Confident AI team is shipping it in the next release. This is evaluation obsession in practice.
 
@@ -50,6 +50,26 @@ I don't just use evaluation and AI tooling. I find where they break, why, and wh
 - **[mem0ai/memory-benchmarks](https://github.com/mem0ai/memory-benchmarks/pull/12)** — Added failure-mode regression scenarios for memory systems — because benchmarks that don't surface failure modes aren't useful for real-world agents.
 
 - **[weaviate/weaviate](https://github.com/weaviate/weaviate/issues/11627)** — Opened research-driven issue on hybrid search alpha auto-tuning for domain-specific corpora. Surfaced retrieval behavior patterns from financial-document work that the team is now investigating.
+
+**New issues filed (June 2026):**
+
+- **[AgentOps-AI/agentops #1383](https://github.com/AgentOps-AI/agentops/issues/1383)** — Feature proposal + active discussion on GTM/product team dashboard for non-engineer view of agent session health. Contributed narrative translation layer design and MVP scoping for operator-intent dashboards.
+
+- **[mastra-ai/mastra #18086](https://github.com/mastra-ai/mastra/issues/18086)** — Feature request for evaluation metrics in multi-step RAG agent workflows. Proposed `evaluators` config on Mastra workflows for per-hop retrieval confidence and tool selection accuracy — sourced from `finrag-eval` production patterns.
+
+- **[circlemind-ai/fast-graphrag #113](https://github.com/circlemind-ai/fast-graphrag/issues/113)** — Feature request for graph-aware eval metrics (graph edge accuracy, node coverage, hierarchy depth accuracy) for knowledge graph RAG. Standard text-similarity metrics miss graph traversal correctness entirely.
+
+- **[confident-ai/deepeval #2775](https://github.com/confident-ai/deepeval/issues/2775)** — Feature request for per-document-type eval thresholds in heterogeneous corpora. Structured docs (balance sheets) need binary thresholds; narrative docs need gradient thresholds — a single value fails both.
+
+- **[run-llama/llama_index #22032](https://github.com/run-llama/llama_index/issues/22032)** — Feature request for metadata-aware routing in `VectorStoreIndex` for heterogeneous financial document RAG. Today's `RouterQueryEngine` breaks cross-document retrieval; native routing would solve it at the index level.
+
+- **[Arize-ai/phoenix #13809](https://github.com/Arize-ai/phoenix/issues/13809)** — Feature request for span-level context confidence scores in multi-hop RAG tracing. Phoenix traces execution but not retrieval quality per hop — adding `context_confidence` and `confidence_delta` closes the eval loop.
+
+- **[firecrawl/firecrawl #3817](https://github.com/firecrawl/firecrawl/issues/3817)** — Feature request for extraction quality metadata in Firecrawl responses. Table F1, footnote accuracy, structure preservation — extraction is the silent bottleneck in financial RAG pipelines.
+
+- **[mem0ai/mem0 #5614](https://github.com/mem0ai/mem0/issues/5614)** — Feature request for memory quality eval metrics at retrieval time: staleness risk, conflict detection, importance-weighted recall. Memory quality failures are silent — this closes the observability gap.
+
+- **[wandb/weave #7280](https://github.com/wandb/weave/issues/7280)** — Feature request for per-retrieval-hop quality scores and chain degradation attribution in Weave traces. Execution traces exist; quality waterfall alongside them doesn't.
 
 ---
 
