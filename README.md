@@ -12,15 +12,30 @@ I build evaluation-first AI systems — and I can tell you exactly why each one 
 
 ## What Each Project Proves
 
+Grouped by what they demonstrate — evaluation first, then trust-critical products, then PM tooling.
+
+### 🧪 Evaluation & LLM-as-judge
+
 | Project | Problem Solved | What It Demonstrates | Live |
 |---------|----------------|----------------------|------|
-| [Self-Improving Prompt Agent](https://github.com/Ruthwik-Data/self-improving-prompt-agent) | How do you improve a prompt without guessing? | Built an eval loop that ran 10 rounds — score went 0.10 → 0.80. Key insight: better prompts come from better evals, not more attempts | — |
 | [finrag-eval](https://github.com/Ruthwik-Data/finrag-eval) | Financial RAG hallucinates confidently — and you can't tell | Found 2/3 hallucinations were honest refusals, 1/3 were confidently wrong. Filed a metric-level bug in DeepEval that the team is now fixing | — |
-| [GitScope](https://github.com/Ruthwik-Data/gitscope) | Evaluating a GitHub repo takes hours of manual reading | Built an MCP-powered agent that gives PMs structured repo analysis in seconds — PM-first output, not raw code | — |
-| [Mechanic Trust](https://github.com/Ruthwik-Data/mechanictrust) | Auto repair shops exploit trust gaps with opaque pricing | Case study: designed the trust, explainability, and pricing transparency layer for a high-friction AI product | — |
-| [ReceiptIQ](https://github.com/Ruthwik-Data/receiptiq) | Accountants manually copy-paste receipt data for hours | GPT-4o Vision pipeline with confidence scoring — forces the AI to be honest about what it's uncertain about | [Demo](https://receiptiq-topaz.vercel.app/) |
-| [Warmlist](https://github.com/Ruthwik-Data/warmlist) | PMs lose track of warm contacts who could open doors | GPT-4o-mini CRM that surfaces who to reach out to and why — using LLMs for PM work, not just AI products | — |
+| [AgentJudge](https://github.com/Ruthwik-Data/agentjudge) | Naive LLM graders reward confident-but-wrong answers — and can be hijacked by the content they grade | Rigorous LLM-as-judge: evidence-first scoring, abstains instead of guessing, refuses prompt-injection. The same judge spread 2.0 → 4.5 across adversarial tests | [Live](https://chatgpt.com/g/g-6a45e91f26d88191b6b3c66e1b243482) |
+| [Self-Improving Prompt Agent](https://github.com/Ruthwik-Data/self-improving-prompt-agent) | How do you improve a prompt without guessing? | Built an eval loop that ran 10 rounds — score went 0.10 → 0.80. Key insight: better prompts come from better evals, not more attempts | — |
+
+### 🛡️ Trust-first AI products
+
+| Project | Problem Solved | What It Demonstrates | Live |
+|---------|----------------|----------------------|------|
 | [SugarShield](https://github.com/Ruthwik-Data/sugarshield) | AI classifiers over-warn or miss hidden sugar — you can't tell which failure mode you're in | Built eval infrastructure into the product: 0 false negatives by design, conservative bias as explicit product decision, 87% trigger match rate. Strict vs. Lenient mode comparison built-in | [Demo](https://sugarshield.vercel.app/) · [Eval](https://sugarshield.vercel.app/eval) |
+| [ReceiptIQ](https://github.com/Ruthwik-Data/receiptiq) | Accountants manually copy-paste receipt data for hours | GPT-4o Vision pipeline with confidence scoring — forces the AI to be honest about what it's uncertain about | [Demo](https://receiptiq-topaz.vercel.app/) |
+| [Mechanic Trust](https://github.com/Ruthwik-Data/mechanictrust) | Auto repair shops exploit trust gaps with opaque pricing | Case study: designed the trust, explainability, and pricing transparency layer for a high-friction AI product | — |
+
+### 🧰 PM & agent tooling
+
+| Project | Problem Solved | What It Demonstrates | Live |
+|---------|----------------|----------------------|------|
+| [GitScope](https://github.com/Ruthwik-Data/gitscope) | Evaluating a GitHub repo takes hours of manual reading | Built an MCP-powered agent that gives PMs structured repo analysis in seconds — PM-first output, not raw code | — |
+| [Warmlist](https://github.com/Ruthwik-Data/warmlist) | PMs lose track of warm contacts who could open doors | GPT-4o-mini CRM that surfaces who to reach out to and why — using LLMs for PM work, not just AI products | — |
 
 ---
 
