@@ -6,7 +6,7 @@ I build evaluation-first AI systems — and I can tell you exactly why each one 
 
 7+ years building 0→1 products. Co-founded Photon (EdTech fintech, 75+ schools, $100K ARR). Now building at the intersection of LLMs, RAG, and AI evaluation.
 
-**Start here → [Mechanic Trust case study](https://github.com/Ruthwik-Data/mechanictrust)** — the clearest example of how I design evaluation-first AI products.
+**Start here → [finrag-eval](https://github.com/Ruthwik-Data/finrag-eval)** — my sharpest eval-first work: caught a confident hallucination in financial RAG and surfaced a metric bug now merged into DeepEval (PR #2743).
 
 ---
 
@@ -35,7 +35,7 @@ Grouped by what they demonstrate — evaluation first, then trust-critical produ
 | Project | Problem Solved | What It Demonstrates | Live |
 |---------|----------------|----------------------|------|
 | [GitScope](https://github.com/Ruthwik-Data/gitscope) | Evaluating a GitHub repo takes hours of manual reading | Built an MCP-powered agent that gives PMs structured repo analysis in seconds — PM-first output, not raw code | — |
-| [Warmlist](https://github.com/Ruthwik-Data/warmlist) | PMs lose track of warm contacts who could open doors | GPT-4o-mini CRM that surfaces who to reach out to and why — using LLMs for PM work, not just AI products | — |
+| [TokenLeak](https://github.com/Ruthwik-Data/tokenleak) | LLM bills spike and you can't tell why | Local CLI that pinpoints the cause — runaway agent loops, silent model swaps, bloated prompts. Unit-economics thinking as a tool | — |
 
 ---
 
